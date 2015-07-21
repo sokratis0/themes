@@ -1,0 +1,22 @@
+---
+common:
+    tour_toolbar_label_font_family: null    # Font family of label on left side of Tour toolbar (e.g., stop name) (leave null to use site-wide primary_heading_font_family)
+    tour_toolbar_label_font_size: 1.125rem      # Font size of label on left side of Tour toolbar
+    tour_toolbar_label_text_color: null     # Color of label of left side of Tour toolbar (leave null to use site-wide toolbar_text_color)
+    tour_toolbar_button_color: null         # Color of button icons on Tour toolbar (leave null to use site-wide toolbar_text_color)
+
+    tour_stop_tab_text_alignment: center    # Text alignment for text labels in stop-detail tabs
+    tour_stop_tab_background_color: null    # Background color for unselected stop-detail tabs (leave null to use site-wide subfocal_background_color)
+    tour_stop_tab_text_color: null          # Text color for unselected stop-detail tabs (leave null to use site-wide secondary_text_color)
+    tour_stop_tab_selected_background_color: null        # Background color for selected stop-detail tabs (leave null to use site-wide focal_link_color)
+    tour_stop_tab_selected_text_color: null             # Text color for selected stop-detail tabs (leave null to use site-wide focal_background_color)
+
+    tour_gallery_paginator_text_transform: none   # Text-transform for 'Photo [x] of [y]' in gallery paginators
+    tour_gallery_paginator_font_weight: 500           # Font weight for 'Photo [x] of [y]' in gallery paginators
+    tour_gallery_paginator_text_color: null            # Text color for 'Photo [x] of [y]' in gallery paginators (leave null to use site-wide primary_text_color)
+    tour_gallery_paginator_font_size: 0.875rem          # Font size for 'Photo [x] of [y]' in gallery paginators
+
+    tour_stop_map_help_border_color: '#808080'  # Color of bottom border on the 'Tap any pin' help text on the map views
+    tour_stop_map_help_text_color: '#eeeeee'    # Text color of the 'Tap any pin' help text on the map views
+    tour_stop_map_help_background_color: '#808080'    # Background color behind the 'Tap any pin' help text on the map views
+...

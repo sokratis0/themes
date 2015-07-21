@@ -1,0 +1,137 @@
+---
+common:
+
+    # This section only applies when this module is configured as list- or springboard-style layout
+    home_hero_image_src: logo-home.png  # H3.1
+    home_hero_image_width: 100%         # H3.2
+    home_hero_image_height: auto        # H3.3
+    home_hero_image_max_width: 560px    # H3.4
+    home_hero_image_max_height: none    # H3.5
+    home_hero_image_padding: 0          # H3.6
+    home_hero_image_background_color: null  # H3.7
+    home_hero_image_alignment: center
+
+    # This section only applies when this module is configured as springboard-style layout
+    content_navigation_grid_icon_set: mono          # H4.1
+    content_navigation_grid_icon_size: "120"
+    content_navigation_grid_utility_icon_set: mono  # H4.2
+    content_navigation_grid_utility_icon_size: "60"
+
+    # This section only applies when this module is configured as list-style layout
+    content_navigation_list_icon_set: mono          # H5.1
+    content_navigation_list_icon_size: "120"
+    content_navigation_list_utility_icon_set: mono  # H6.1
+    content_navigation_list_utility_icon_size: "60"
+
+    styles:
+        kgoui_page: # Styling for home page's body background
+            index:
+                body_background_color: null         # H2.1: Entire page background color
+                body_background_image: null         # H2.2: Entire page background image
+                body_background_position: top left  # H2.3: CSS background-position for the body background image (if specified); per CSS syntax
+                body_background_repeat: no-repeat   # H2.4: CSS background-repeat for the body background image (if specified); repeat | repeat-x | repeat-y | no-repeat
+                body_background_size: 100% auto     # Entire page background image size (per CSS syntax)
+                body_background_attachment: scroll  # CSS background-attachment for the body background image (if specified); scroll | fixed
+                footer_text_color: null             # H9.1: Color of text and text links in page footer, including 'Back to Top' and copyright notice.
+        kgoui_list_navigation: # This section only applies when this module is configured as list-style layout (but not to the Text (basic) device class, which always gets the app-wide styling).
+            primary:
+                heading_text_color: null
+                background_color: null              # H5.2: Background color for primary navigation lists. Set to null to default to global focal_background_color.
+                border_color: null                  # H5.3
+            utility:
+                heading_text_color: null
+                background_color: null              # H6.2: Background color for utility-class navigation lists. Set to null to default to global focal_background_color.
+                border_color: null                  # H6.3
+            login:
+                background_color: null              # H7.1: Background color for login navigation lists within the page body. Set to null to default to global focal_background_color.
+                border_color: null                  # H7.2
+            settings:
+                background_color: null              # H8.1: Background color for settings navigation lists within the page body. Set to null to default to global focal_background_color.
+                border_color: null                  # H8.2
+            favorites:
+                background_color: null
+                border_color: null
+                heading_text_color: null
+        kgoui_list_item_navigation:
+            primary:      # Styling for primary module list(s). This section only applies when this module is configured as list-style layout (but not to the Text (basic) device class, which always gets the app-wide styling).
+                title_font_family: null             # H5.4
+                title_font_size: 1.125rem           # H5.5
+                title_line_height: 1.25em
+                title_font_weight: normal           # H5.6
+                text_color: null                    # H5.7
+                action_icon_color: null             # H5.8
+            utility:      # Styling for utility-class module list(s). This section only applies when this module is configured as list-style layout (but not to the Text (basic) device class, which always gets the app-wide styling).
+                title_font_family: null             # H6.4
+                title_font_size: 1.125rem           # H6.5
+                title_line_height: 1.25em
+                title_font_weight: normal           # H6.6
+                text_color: null                    # H6.7
+                action_icon_color: null             # H6.8
+            login:      # Styling for login link. This section applies to both list- and springboard-style layouts (but not to the Text (basic) device class, which always gets the app-wide styling).
+                text_color: null                    # H7.3
+                action_icon_color: null             # H7.4
+            settings:
+                text_color: null                    # H8.3
+                action_icon_color: null             # H8.4
+        kgoui_grid_navigation: # This section only applies when this module is configured as springboard-style layout.
+            primary:    # Styling for primary module springboard section(s).
+                background_color: null          # H4.3: Background color behind primary module springboard section(s).
+                section_divider: null           # Border style below primary module springboard section(s). Use CSS compact notation. Applies to border-bottom for the containing <div>.
+                margin_bottom: null
+            utility:    # Styling for utility-class module springboard section(s).
+                background_color: null
+                section_divider: null           # H4.4: Border style below utility-class module springboard section(s). Use CSS compact notation. Applies to border-bottom for the containing <div>.
+                margin_bottom: null
+            favorites:
+                background_color: null
+                section_divider: null
+                heading_text_color: null    # Text color for "My Favorite Modules" section heading - MUST contrast with home screen background color.
+                margin_bottom: 1rem
+        kgoui_grid_item_navigation: # This section only applies when this module is configured as springboard-style layout.
+            default:
+                springboard_highlight_background_color: null    # Tap highlight color for springboard items
+                text_color: null
+            primary:
+                text_color: null            # H4.5
+                title_font_size: null   # Font size for springboard item titles. Often specified (larger) just for large device class, below. Only applies to Core 2.2.2 or higher.
+                subtitle_font_size: null   # Font size for springboard item subtitles. Often specified (larger) just for large device class, below. Only applies to Core 2.2.2 or higher.
+                line_height: null   # Line height (vertical text spacing) for springboard item titles and subtitles. Often specified (larger) just for large device class, below. Only applies to Core 2.2.2 or higher.
+            utility:
+                text_color: null            # H4.6
+                title_font_size: null   # Font size for springboard item titles. Often specified (larger) just for large device class, below. Only applies to Core 2.2.2 or higher.
+                subtitle_font_size: null   # Font size for springboard item subtitles. Often specified (larger) just for large device class, below. Only applies to Core 2.2.2 or higher.
+                line_height: null   # Line height (vertical text spacing) for springboard item titles and subtitles. Often specified (larger) just for large device class, below. Only applies to Core 2.2.2 or higher.
+
+small: # Styling for modern small-screen devices e.g., smartphones.
+    styles:
+        kgoui_page:
+            index: {} # To specify home page background styling specific to modern small-screen devices, delete this '{}', then copy and paste some or all of the corresponding parameters from the common section above.
+
+
+large: # Styling for tablets, laptops, and desktop computers.
+    # Styling for portlets is set in the theme's app-wide theme file (common/config/theme.yaml).
+    styles:
+        kgoui_page:
+            index: {} # To specify home page background styling specific to large-screen devices, delete this '{}', then copy and paste some or all of the corresponding parameters from the common section above.
+        kgoui_grid_item_navigation: # This section only applies when this module is configured as springboard-style layout.
+            primary:
+                title_font_size: null   # Font size for springboard item titles
+                subtitle_font_size: null   # Font size for springboard item subtitles. Only applies to Core 2.2.2 or higher.
+                line_height: null   # Line height (vertical text spacing) for springboard item titles and subtitles. Only applies to Core 2.2.2 or higher.
+            utility:
+                title_font_size: null   # Font size for springboard item titles
+                subtitle_font_size: null   # Font size for springboard item subtitles. Only applies to Core 2.2.2 or higher.
+                line_height: null   # Line height (vertical text spacing) for springboard item titles and subtitles. Only applies to Core 2.2.2 or higher.
+
+
+text:   # Styling for basic/text-based devices. Home-screen theming for this device class is very limited.
+    home_hero_image_src: logo-home.gif
+    home_hero_image_width: 160px
+    home_hero_image_height: 64px
+    home_hero_image_max_width: 160px
+    home_hero_image_max_height: 64px
+    home_hero_image_padding: 0;
+    home_hero_image_background_color: transparent
+    home_hero_image_alignment: left
+
+...

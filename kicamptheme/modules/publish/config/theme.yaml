@@ -1,0 +1,6 @@
+---
+common:
+    hero_section_heading_font_family: null          # Font family for page titles in hero sections in Publish pages. Set to null to default to app-level primary_heading_font_family.
+    hero_section_subheading_font_family: null       # Font family for page sub-headings in hero sections in Publish pages. Set to null to default to app-level primary_heading_font_family.
+    hero_section_link_font_family: null             # Font family for page sub-headings in hero sections in Publish pages. Set to null to default to app-level primary_font_family.
+...

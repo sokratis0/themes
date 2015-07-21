@@ -1,0 +1,11 @@
+----- 
+id: karolinska/kitheme_components 
+title: ki mobile web app theme 
+description: ki mobile web app theme 
+license: commercial 
+version: 1.0.0 
+dependencies: 
+    kurogo/kurogo-core: 
+    - '~> 2.3.0' 
+... 
+
